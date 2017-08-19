@@ -1,0 +1,111 @@
+body, html {
+    font-family: Geneva, Tahoma, Verdana, sans-serif;
+}
+
+/* Top nav */
+
+.navbar-img {
+    max-width: 75px;
+}
+
+.navbar-nav {
+    padding: 15px;
+    font-size: large;
+    color: #222;
+}
+
+.navbar-header {
+    min-height: 85px;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+    background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/lit-up-starry-sky-in-space_-jsf4r3eb__F0000.png")
+}
+
+.jumbotron h1 {
+    color: #eeeeee;
+    font-size: 75px;
+    font-weight: 700;
+    font-family: Geneva, Tahoma, Verdana, sans-serif;
+}
+
+.jumbotron p {
+    color: #eeeeee;
+    font-size: 40px;
+    font-weight: 100;
+    font-family: Geneva, Tahoma, Verdana, sans-serif;
+}
+
+/* main content */
+
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -100px;
+}
+
+.wrapper:after {
+    content: "";
+    display: block;
+}
+
+.wrapper:after, footer {
+    height: 100px;
+}
+
+.bio-img {
+    width: 35%;
+    float: left;
+    padding-right: 10px;
+}
+
+.about {
+    min-height: 250px;
+}
+
+ul {
+    margin-left: -20px;
+}
+
+/* Connect */
+
+#connect {
+    position: absolute;
+    top: -10px;
+    right: 5px;
+}
+
+.icon {
+    width: 30px;
+}
+
+/* Portfolio */
+
+.thumbnail {
+    max-width: 300px;
+    overflow: hidden;
+}
+
+
+.caption h3 {
+    position: absolute;
+    color: #fbf9e2;
+    background-color: grey;
+    bottom: 10px;
+    padding: 10px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+}
+
+@media only screen and (max-width : 768px) {
+    #connect {
+        position: relative;
+    }
+
+    #connect li {
+        float: left;
+    }
+}
